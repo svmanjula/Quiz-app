@@ -1,0 +1,46 @@
+@import url(style.css);
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 40vw;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.titles{
+    display: flex;
+    color: var(--white);
+    font-size: 0.8rem;
+    gap: 8rem;
+}
+
+.quiz-questions-para{
+    color: var(--white);
+    text-align: center;
+}
+
+.btn-options{
+    display: flex;
+    border: 2px solid var(--secondary);
+    border-radius:1rem;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+    width:40vw;
+    min-width: 400px;
+}
+
+.footer-pills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.btn-quitegame:hover{
+    color: var(--error);
+}

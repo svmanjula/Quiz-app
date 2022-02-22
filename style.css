@@ -1,0 +1,13 @@
+:root{
+    --primary: rgba(17,24,39,1); 
+
+    --white:white;
+    --secondary:rgb(168, 160, 160);
+    --success:rgb(5, 158, 5);
+    --error:rgb(153, 12, 12);
+    --warning:orange;
+    --background-color: rgb(55, 55, 73);
+}
+a{
+    text-decoration: none;
+}
